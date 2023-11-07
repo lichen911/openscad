@@ -12,7 +12,7 @@ wall_thick = 2;
 translate([0, 0, wall_thick/2])
 cube([base_length, base_width, wall_thick], center=true);
 
-// short sides
+// long sides
 translate([0, base_width / 2, (base_depth + wall_thick) / 2])
 cube([base_length, wall_thick, base_depth + wall_thick], center=true);
 
