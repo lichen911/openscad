@@ -1,4 +1,4 @@
-#"Merry Liftmas" Christmas Ornament :christmas_tree::weight_lifting:
+# "Merry Liftmas" Christmas Ornament :christmas_tree::weight_lifting:
 ---
 # How to use
 The model was created in OpenSCAD. The model is mostly parameterized, but you'll likely need to do some tweaking if you want to, for example, change the font. The `text_on.scad` module was borrowed from https://github.com/brodykenrick/text_on_OpenSCAD
