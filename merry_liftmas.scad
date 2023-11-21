@@ -43,13 +43,13 @@ module base_plate()
 
 module merry_liftmas()
 {
-    translate([ 0, 0, letter_height ]) rotate(a = [ 0, 0, -6.5 ])
+    translate([ 0, 0, letter_height ])
         text_on_circle(t = "MERRY", r = overall_radius * text_radius_ratio, font = font, direction = "ltr",
-                       size = font_size, spacing = 1.5, extrusion_height = letter_height);
+                       size = font_size, spacing = 1.5, extrusion_height = letter_height, rotate = 8);
 
-    translate([ 0, 0, letter_height ]) rotate(a = [ 0, 0, -2.3 ])
-        text_on_circle(t = "L I F T M A S", r = overall_radius * text_radius_ratio, font = font, direction = "ltr",
-                       size = font_size, spacing = 0.6, extrusion_height = letter_height, ccw = true);
+    translate([ 0, 0, letter_height ])
+        text_on_circle(t = "LIFTMAS", r = overall_radius * text_radius_ratio, font = font, direction = "ltr",
+                       size = font_size, spacing = 1.27, extrusion_height = letter_height, ccw = true, rotate = -1);
 }
 
 module weight_icon()
@@ -78,7 +78,9 @@ module ornament()
     difference()
     {
         base_plate();
-        translate(v = [ 0, overall_radius - rim_thickness - 3, 0 ]) cylinder(h = 40, r = 1.5, center = true);
+
+        // cut out hanging hole
+        translate(v = [ 0, overall_radius - rim_thickness - 2.2, 0 ]) cylinder(h = 40, r = 2, center = true);
     }
 
     front_text();
