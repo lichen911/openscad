@@ -12,3 +12,4 @@ Also, it looks nice when the printing is colored white, so you can either paint 
 
 ![image](images/rendered_model1.png)
 ![image](images/printed_example2.jpg)
+![image](images/printed_example3.jpg)
