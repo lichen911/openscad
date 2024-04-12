@@ -59,7 +59,7 @@ module weight_icon()
     {
         text(text = "20", size = icon_font_size, font = font, halign = "center", valign = "center");
         translate(v = [ 0, -icon_text_separation, 0 ])
-            text(text = "23", size = icon_font_size, font = font, halign = "center", valign = "center");
+            text(text = "24", size = icon_font_size, font = font, halign = "center", valign = "center");
     }
 }
 
