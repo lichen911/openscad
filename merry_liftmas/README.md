@@ -10,6 +10,6 @@ Because there is detail on both sides of the ornament I have chosen to print the
 
 Also, it looks nice when the printing is colored white, so you can either paint it or setup the slicer to pause the print at the right layer so you can switch to white. After the letters finish printing you might then want to switch back to black to finish up the outer rim in black.
 
-![image](images/rendered_model1.png)
+![image](images/rendered_model_2024.png)
 ![image](images/printed_example2.jpg)
 ![image](images/printed_example3.jpg)
