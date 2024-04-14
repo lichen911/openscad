@@ -2,11 +2,11 @@ $fa = 1;
 $fs = 0.4;
 
 overall_height = 4;
-base_cyl_radius = 15;
+base_cyl_radius = 30;
 base_rim_thickness = 2;
-base_width_offset = 35;
+base_width_offset = 70;
 
-font_size = 15;
+font_size = 32;
 font = "Felix Titling";
 
 module base_plate()
